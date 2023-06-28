@@ -1,7 +1,16 @@
 .container {
     color: #fff;
-    padding-bottom: 70px;
     border-bottom: 1px solid #272D2B;
+    padding: 0 5% 70px;
+}
+
+.container h2 {
+    color: #FFF;
+text-align: center;
+font-size: 28px;
+font-style: italic;
+font-weight: 400;
+line-height: normal;
 }
 
 .container h2,p {
