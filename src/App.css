@@ -1,10 +1,18 @@
 body {
-  margin: 0;
+  background-color: black;
+  color: #fff;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 3%;
+  padding: 0 3%;
+  border-bottom: 1px solid #272D2B;
+}
+
+h1 {
+font-size: 30px;
+font-family: MAZIUS REVIEW 20.09;
+font-style: italic;
 }
