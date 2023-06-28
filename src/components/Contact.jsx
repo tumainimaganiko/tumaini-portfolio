@@ -14,11 +14,11 @@ const Contact = () => {
         everywhere @tumainimaganiko
       </p>
       <div>
-        <BiLogoGmail />
-        <FaLinkedin />
-        <BsGithub />
-        <FaAngellist />
-        <FaTwitter />
+        <a href="mailto:tumainimaganiko@gmail.com?"  target="_blank"><BiLogoGmail /></a>
+        <a href="https://www.linkedin.com/in/tumainimaganiko/"><FaLinkedin /></a>
+        <a href="https://github.com/tumainimaganiko"><BsGithub /></a>
+        <a href="https://wellfound.com/u/tumaini-maganiko"><FaAngellist /></a>
+        <a href="https://twitter.com/Chief2maini"><FaTwitter /></a>
       </div>
     </section>
   );
