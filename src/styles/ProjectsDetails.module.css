@@ -4,7 +4,7 @@
 
 .container > div {
     border-bottom: 1px solid #272D2B;
-    padding: 20px;
+    padding: 20px 0;
 }
 
 .container > div:last-child {
@@ -16,8 +16,8 @@
   justify-content: space-between;
 }
 
-.iconDiv img {
-  margin: 0 7px;
+.iconDiv div img {
+  margin: 5px;
 }
 
 .iconDiv a {
