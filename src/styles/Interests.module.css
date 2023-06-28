@@ -1,0 +1,36 @@
+.container {
+  margin: 25% 5%;
+}
+
+.container h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 28px;
+  font-family: MAZIUS REVIEW 20.09;
+  font-style: italic;
+}
+
+.container p {
+  text-align: center;
+  font-family: Avenir Next LT Pro;
+}
+
+.container div {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 70px 70px 70px;
+  gap: 10px;
+}
+
+.container span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background: #272d2b;
+  box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  font-size: 14px;
+  font-family: Neutral Face;
+  font-weight: 700;
+}
