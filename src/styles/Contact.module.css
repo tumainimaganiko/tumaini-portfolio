@@ -1,9 +1,22 @@
 .container {
     color: #fff;
+    padding-bottom: 70px;
+    border-bottom: 1px solid #272D2B;
+}
+
+.container h2,p {
+    text-align: center;
+    text-align-last: center;
 }
 
 .container div {
     display: flex;
     justify-content: space-around;
     font-size: 24px;
+    padding-top: 15px;
+}
+
+.container a {
+    text-transform: none;
+    color: #fff;
 }
