@@ -1,4 +1,4 @@
-import styles from '../styles/About.module.css';
+import styles from "../styles/About.module.css";
 
 const About = () => {
   return (
@@ -6,10 +6,10 @@ const About = () => {
       <h2>about me</h2>
       <div>
         <p>
-          Welcome to my portfolio! I&apos;m Tumaini Maganiko, a dedicated full-stack
-          software developer with a passion for crafting innovative digital
-          solutions. From front-end design to back-end development, I strive to
-          create intuitive user experiences and build robust, scalable
+          Welcome to my portfolio! I&apos;m Tumaini Maganiko, a dedicated
+          full-stack software developer with a passion for crafting innovative
+          digital solutions. From front-end design to back-end development, I
+          strive to create intuitive user experiences and build robust, scalable
           applications.
         </p>
         <p>

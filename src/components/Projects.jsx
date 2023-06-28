@@ -1,16 +1,16 @@
-import ProjectsDetails from "./ProjectsDetails"
+import ProjectsDetails from "./ProjectsDetails";
 
 const Projects = () => {
   const container = {
-    margin: '0 5%',
-  }
+    margin: "0 5%",
+  };
   return (
     <section style={container}>
       <h2>projects</h2>
       <p>some things I&apos;ve worked (am working) on</p>
       <ProjectsDetails />
     </section>
-  )
-}
+  );
+};
 
-export default Projects
+export default Projects;

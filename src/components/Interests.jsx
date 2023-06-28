@@ -1,4 +1,4 @@
-import styles from '../styles/Interests.module.css';
+import styles from "../styles/Interests.module.css";
 
 const Interests = () => {
   return (
@@ -14,7 +14,7 @@ const Interests = () => {
         <span>FOOTBALL</span>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Interests
+export default Interests;
