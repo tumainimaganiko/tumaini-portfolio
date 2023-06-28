@@ -16,7 +16,7 @@ const ProjectsDetails = () => {
       </div>
       <h2>Space Travelers App</h2>
       <p>
-        Space Travelers' Hub is a react application for a company that deals
+        Space Travelers&apos; Hub is a react application for a company that deals
         with transporting people to space using rockets. This web application
         allows users to book rockets and join selected space missions. Also,
         users can cancel or leave joined mission at any time. Built with React

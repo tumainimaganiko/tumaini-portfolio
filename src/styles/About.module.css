@@ -1,18 +1,16 @@
 .container {
-    margin: 25% 5%;
+  margin: 25% 5%;
 }
 
 .container h2 {
-    color: #FFF;
-text-align: center;
-font-size: 28px;
-font-family: MAZIUS REVIEW 20.09;
-font-style: italic;
+  color: #fff;
+  text-align: center;
+  font-size: 28px;
+  font-style: italic;
 }
 
 .container p {
-    text-align: justify;
-    text-align-last: center;
-    color: #FFF;
-font-family: Avenir Next LT Pro;
+  text-align: justify;
+  text-align-last: center;
+  color: #fff;
 }

@@ -6,7 +6,7 @@ const About = () => {
       <h2>about me</h2>
       <div>
         <p>
-          Welcome to my portfolio! I'm Tumaini Maganiko, a dedicated full-stack
+          Welcome to my portfolio! I&apos;m Tumaini Maganiko, a dedicated full-stack
           software developer with a passion for crafting innovative digital
           solutions. From front-end design to back-end development, I strive to
           create intuitive user experiences and build robust, scalable

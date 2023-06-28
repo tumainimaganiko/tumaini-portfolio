@@ -6,13 +6,11 @@
   color: #fff;
   text-align: center;
   font-size: 28px;
-  font-family: MAZIUS REVIEW 20.09;
   font-style: italic;
 }
 
 .container p {
   text-align: center;
-  font-family: Avenir Next LT Pro;
 }
 
 .container div {
@@ -28,9 +26,8 @@
   align-items: center;
   border-radius: 10px;
   background: #272d2b;
-  box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 2px 4px 4px 0 rgba(0, 0, 0, 0.25);
   text-align: center;
   font-size: 14px;
-  font-family: Neutral Face;
   font-weight: 700;
 }

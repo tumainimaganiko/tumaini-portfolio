@@ -7,7 +7,7 @@ const Projects = () => {
   return (
     <section style={container}>
       <h2>projects</h2>
-      <p>some things I've worked (am working) on</p>
+      <p>some things I&apos;ve worked (am working) on</p>
       <ProjectsDetails />
     </section>
   )
