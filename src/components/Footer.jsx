@@ -1,4 +1,4 @@
-import styles from '../styles/Footer.module.css';
+import styles from "../styles/Footer.module.css";
 
 const Footer = () => {
   return (
@@ -10,7 +10,7 @@ const Footer = () => {
       </div>
       <p>@2023 Tumaini Maganiko All Rights Reserved</p>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

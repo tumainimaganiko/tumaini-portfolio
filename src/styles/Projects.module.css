@@ -1,15 +1,15 @@
 .container {
-    margin: 0 5%;
+  margin: 0 5%;
 }
 
-.container > h2,p {
-    text-align: center;
-    font-weight: 400;
-line-height: normal;
+.container > h2,
+p {
+  text-align: center;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .container h2 {
-font-size: 28px;
-font-style: italic;
-
+  font-size: 28px;
+  font-style: italic;
 }

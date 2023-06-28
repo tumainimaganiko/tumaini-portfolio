@@ -3,12 +3,12 @@
 }
 
 .container > div {
-    border-bottom: 1px solid #272D2B;
-    padding: 20px 0;
+  border-bottom: 1px solid #272d2b;
+  padding: 20px 0;
 }
 
 .container > div:last-child {
-    border: none;
+  border: none;
 }
 
 .iconDiv {

@@ -10,15 +10,25 @@ const Contact = () => {
     <section className={styles.container}>
       <h2>get in touch</h2>
       <p>
-        I'm currently open to new opportunities, inbox is always open! Find me
+        I&apos;m currently open to new opportunities, inbox is always open! Find me
         everywhere @tumainimaganiko
       </p>
       <div>
-        <a href="mailto:tumainimaganiko@gmail.com?"  target="_blank"><BiLogoGmail /></a>
-        <a href="https://www.linkedin.com/in/tumainimaganiko/"><FaLinkedin /></a>
-        <a href="https://github.com/tumainimaganiko"><BsGithub /></a>
-        <a href="https://wellfound.com/u/tumaini-maganiko"><FaAngellist /></a>
-        <a href="https://twitter.com/Chief2maini"><FaTwitter /></a>
+        <a href="mailto:tumainimaganiko@gmail.com?" target="_blank" rel="noreferrer">
+          <BiLogoGmail />
+        </a>
+        <a href="https://www.linkedin.com/in/tumainimaganiko/">
+          <FaLinkedin />
+        </a>
+        <a href="https://github.com/tumainimaganiko">
+          <BsGithub />
+        </a>
+        <a href="https://wellfound.com/u/tumaini-maganiko">
+          <FaAngellist />
+        </a>
+        <a href="https://twitter.com/Chief2maini">
+          <FaTwitter />
+        </a>
       </div>
     </section>
   );

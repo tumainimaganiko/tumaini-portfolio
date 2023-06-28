@@ -1,31 +1,32 @@
 .container {
-    color: #fff;
-    border-bottom: 1px solid #272D2B;
-    padding: 0 5% 70px;
+  color: #fff;
+  border-bottom: 1px solid #272d2b;
+  padding: 0 5% 70px;
 }
 
 .container h2 {
-    color: #FFF;
-text-align: center;
-font-size: 28px;
-font-style: italic;
-font-weight: 400;
-line-height: normal;
+  color: #fff;
+  text-align: center;
+  font-size: 28px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
 }
 
-.container h2,p {
-    text-align: center;
-    text-align-last: center;
+.container h2,
+p {
+  text-align: center;
+  text-align-last: center;
 }
 
 .container div {
-    display: flex;
-    justify-content: space-around;
-    font-size: 24px;
-    padding-top: 15px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 24px;
+  padding-top: 15px;
 }
 
 .container a {
-    text-transform: none;
-    color: #fff;
+  text-transform: none;
+  color: #fff;
 }
