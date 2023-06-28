@@ -1,6 +1,14 @@
 .container {
-  border-bottom: 1px solid #2f3634;
   padding-bottom: 30px;
+}
+
+.container > div {
+    border-bottom: 1px solid #272D2B;
+    padding: 20px;
+}
+
+.container > div:last-child {
+    border: none;
 }
 
 .iconDiv {

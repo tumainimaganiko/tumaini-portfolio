@@ -15,6 +15,7 @@ const ProjectsDetails = () => {
       {projects.map((item) => (
         <>
           <div>
+          <div>
             <div>
               <img src={item.image} alt="testing" style={imgStyles} />
             </div>
@@ -29,6 +30,7 @@ const ProjectsDetails = () => {
               <img src={cssLogo} alt="" className={styles.logo} />
             </div>
             <a href={item.githubLink}>VIEW CODE</a>
+          </div>
           </div>
         </>
       ))}
