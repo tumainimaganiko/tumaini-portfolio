@@ -1,0 +1,27 @@
+.container {
+    border-bottom: 1px solid #2F3634;
+    padding-bottom: 30px;
+}
+.iconDiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.iconDiv img {
+    margin: 0 7px;
+}
+
+.iconDiv a {
+    text-decoration: none;
+    background-color: #2F3634;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 30px;
+font-size: 14px;
+font-family: Neutral Face;
+font-weight: 700;
+}
+
+.logo {
+    width: 20px;
+}
