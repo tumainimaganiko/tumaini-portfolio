@@ -6,7 +6,7 @@ const Navbar = () => {
       <h1>Tumaini Maganiko</h1>
       <GiHamburgerMenu />
     </nav>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

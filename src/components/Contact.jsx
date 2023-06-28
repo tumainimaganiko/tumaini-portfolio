@@ -10,11 +10,15 @@ const Contact = () => {
     <section className={styles.container}>
       <h2>get in touch</h2>
       <p>
-        I&apos;m currently open to new opportunities, inbox is always open! Find me
-        everywhere @tumainimaganiko
+        I&apos;m currently open to new opportunities, inbox is always open! Find
+        me everywhere @tumainimaganiko
       </p>
       <div>
-        <a href="mailto:tumainimaganiko@gmail.com?" target="_blank" rel="noreferrer">
+        <a
+          href="mailto:tumainimaganiko@gmail.com?"
+          target="_blank"
+          rel="noreferrer"
+        >
           <BiLogoGmail />
         </a>
         <a href="https://www.linkedin.com/in/tumainimaganiko/">

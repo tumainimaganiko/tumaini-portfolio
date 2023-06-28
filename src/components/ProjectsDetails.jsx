@@ -15,22 +15,22 @@ const ProjectsDetails = () => {
       {projects.map((item) => (
         <>
           <div>
-          <div>
             <div>
-              <img src={item.image} alt="testing" style={imgStyles} />
+              <div>
+                <img src={item.image} alt="testing" style={imgStyles} />
+              </div>
+              <h2>{item.name}</h2>
+              <p>{item.description}</p>
             </div>
-            <h2>{item.name}</h2>
-            <p>{item.description}</p>
-          </div>
-          <div className={styles.iconDiv}>
-            <div>
-              <img src={reactLogo} alt="" className={styles.logo} />
-              <img src={reduxLogo} alt="" className={styles.logo} />
-              <img src={htmlLogo} alt="" className={styles.logo} />
-              <img src={cssLogo} alt="" className={styles.logo} />
+            <div className={styles.iconDiv}>
+              <div>
+                <img src={reactLogo} alt="" className={styles.logo} />
+                <img src={reduxLogo} alt="" className={styles.logo} />
+                <img src={htmlLogo} alt="" className={styles.logo} />
+                <img src={cssLogo} alt="" className={styles.logo} />
+              </div>
+              <a href={item.githubLink}>VIEW CODE</a>
             </div>
-            <a href={item.githubLink}>VIEW CODE</a>
-          </div>
           </div>
         </>
       ))}
