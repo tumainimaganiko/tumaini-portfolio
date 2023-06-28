@@ -1,6 +1,11 @@
+import { GiHamburgerMenu } from "react-icons/gi";
+
 const Navbar = () => {
   return (
-    <div>Navbar</div>
+    <nav>
+      <h1>Tumaini Maganiko</h1>
+      <GiHamburgerMenu />
+    </nav>
   )
 }
 
