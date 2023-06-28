@@ -1,11 +1,9 @@
 import ProjectsDetails from "./ProjectsDetails";
+import styles from '../styles/Projects.module.css';
 
 const Projects = () => {
-  const container = {
-    margin: "0 5%",
-  };
   return (
-    <section style={container}>
+    <section className={styles.container}>
       <h2>projects</h2>
       <p>some things I&apos;ve worked (am working) on</p>
       <ProjectsDetails />
