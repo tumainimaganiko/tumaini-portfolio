@@ -1,3 +1,17 @@
 body {
-  margin: 0;
+  background-color: black;
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+  border-bottom: 1px solid #272d2b;
+}
+
+h1 {
+  font-size: 30px;
+  font-style: italic;
 }

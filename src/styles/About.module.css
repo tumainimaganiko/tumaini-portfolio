@@ -1,0 +1,16 @@
+.container {
+  margin: 25% 5%;
+}
+
+.container h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 28px;
+  font-style: italic;
+}
+
+.container p {
+  text-align: justify;
+  text-align-last: center;
+  color: #fff;
+}

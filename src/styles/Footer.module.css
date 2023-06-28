@@ -1,0 +1,24 @@
+.container {
+  margin: 10% 5%;
+}
+
+.container div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.container p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

@@ -1,0 +1,35 @@
+.container {
+  padding-bottom: 30px;
+}
+
+.container > div {
+  border-bottom: 1px solid #272d2b;
+  padding: 20px 0;
+}
+
+.container > div:last-child {
+  border: none;
+}
+
+.iconDiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.iconDiv div img {
+  margin: 5px;
+}
+
+.iconDiv a {
+  text-decoration: none;
+  background-color: #2f3634;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.logo {
+  width: 20px;
+}
