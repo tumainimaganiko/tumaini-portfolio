@@ -7,34 +7,27 @@ import { useSelector } from "react-redux";
 
 const ProjectsDetails = () => {
   const { projects } = useSelector((store) => store.projects);
-  const imgStyles = {
-    width: "100%",
-  };
   return (
     <section className={styles.container}>
       {projects.map((item) => (
-        <>
-          <div>
             <div>
               <div>
-                <img src={item.image} alt="testing" style={imgStyles} />
+                <img src={item.image} alt="testing" className={styles.imgStyles} />
               </div>
               <div>
-              <h2>{item.name}</h2>
-              <p>{item.description}</p>
+                <h2>{item.name}</h2>
+                <p>{item.description}</p>
+                <div className={styles.iconDiv}>
+                  <div>
+                    <img src={reactLogo} alt="" className={styles.logo} />
+                    <img src={reduxLogo} alt="" className={styles.logo} />
+                    <img src={htmlLogo} alt="" className={styles.logo} />
+                    <img src={cssLogo} alt="" className={styles.logo} />
+                  </div>
+                  <a href={item.githubLink}>VIEW CODE</a>
+                </div>
               </div>
             </div>
-            <div className={styles.iconDiv}>
-              <div>
-                <img src={reactLogo} alt="" className={styles.logo} />
-                <img src={reduxLogo} alt="" className={styles.logo} />
-                <img src={htmlLogo} alt="" className={styles.logo} />
-                <img src={cssLogo} alt="" className={styles.logo} />
-              </div>
-              <a href={item.githubLink}>VIEW CODE</a>
-            </div>
-          </div>
-        </>
       ))}
     </section>
   );
