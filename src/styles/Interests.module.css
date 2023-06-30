@@ -31,3 +31,14 @@
   font-size: 14px;
   font-weight: 700;
 }
+
+@media ( 600px <= width <= 992px) {
+  .container {
+    margin: 10% 5%;
+  }
+
+  .container div {
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 120px 120px;
+  }
+}
