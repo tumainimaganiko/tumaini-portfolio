@@ -19,8 +19,10 @@ const ProjectsDetails = () => {
               <div>
                 <img src={item.image} alt="testing" style={imgStyles} />
               </div>
+              <div>
               <h2>{item.name}</h2>
               <p>{item.description}</p>
+              </div>
             </div>
             <div className={styles.iconDiv}>
               <div>

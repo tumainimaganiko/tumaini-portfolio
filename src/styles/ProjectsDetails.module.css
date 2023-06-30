@@ -33,3 +33,16 @@
 .logo {
   width: 20px;
 }
+
+@media ( 600px <= width <= 992px) {
+  .container > div > div {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* grid-template-rows: 50% 50%; */
+  }
+
+  .container > div img {
+    height: 100%;
+    object-fit: cover;
+  }
+}
