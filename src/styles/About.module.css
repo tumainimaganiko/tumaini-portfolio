@@ -14,3 +14,23 @@
   text-align-last: center;
   color: #fff;
 }
+
+
+@media ( 600px <= width <= 992px) {
+  .container {
+    display: flex;
+  }
+
+  .container div {
+    margin: 2%;
+  }
+
+  .container h2 {
+    text-align: left;
+  }
+
+  .container p {
+    text-align: left;
+    text-align-last: left;
+  }
+}
