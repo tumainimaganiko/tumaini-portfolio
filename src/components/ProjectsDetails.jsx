@@ -1,6 +1,7 @@
 import styles from "../styles/ProjectsDetails.module.css";
 import reactLogo from "../assets/images/react-1.svg";
 import reduxLogo from "../assets/images/redux.svg";
+import uuid4 from 'uuid4';
 import cssLogo from "../assets/images/css-3.svg";
 import htmlLogo from "../assets/images/html-1.svg";
 import { useSelector } from "react-redux";
@@ -10,7 +11,7 @@ const ProjectsDetails = () => {
   return (
     <section className={styles.container}>
       {projects.map((item) => (
-            <div>
+            <div key={uuid4()}>
               <div>
                 <img src={item.image} alt="testing" className={styles.imgStyles} />
               </div>
