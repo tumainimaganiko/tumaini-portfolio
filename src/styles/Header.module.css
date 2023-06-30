@@ -58,3 +58,23 @@
   width: 165px;
   text-align: center;
 }
+
+@media (600px <= width <= 992px) {
+  .container {
+    margin: 10% 5%;
+  }
+
+  .container p {
+    text-align: left;
+    text-align-last: left;
+  }
+
+  .details div:nth-child(1) {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .details div:nth-child(2) {
+    flex-direction: row;
+  }
+}

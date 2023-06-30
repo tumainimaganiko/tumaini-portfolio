@@ -30,3 +30,9 @@ p {
   text-transform: none;
   color: #fff;
 }
+
+@media (600px <= width <= 992px) {
+  .container {
+    padding: 10% 15%;
+  }
+}
