@@ -19,6 +19,7 @@
 @media ( 600px <= width <= 992px) {
   .container {
     display: flex;
+    margin: 10% 5%;
   }
 
   .container div {
@@ -27,6 +28,7 @@
 
   .container h2 {
     text-align: left;
+    white-space: nowrap;
   }
 
   .container p {
