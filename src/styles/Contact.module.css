@@ -31,7 +31,7 @@ p {
   color: #fff;
 }
 
-@media ( 600px <= width <= 992px) {
+@media (600px <= width <= 992px) {
   .container {
     padding: 10% 15%;
   }

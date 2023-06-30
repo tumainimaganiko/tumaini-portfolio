@@ -16,7 +16,7 @@ h1 {
   font-style: italic;
 }
 
-@media ( 600px <= width <= 992px) {
+@media (600px <= width <= 992px) {
   h1 {
     font-size: 40px;
   }

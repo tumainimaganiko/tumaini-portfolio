@@ -15,8 +15,7 @@
   color: #fff;
 }
 
-
-@media ( 600px <= width <= 992px) {
+@media (600px <= width <= 992px) {
   .container {
     display: flex;
     margin: 10% 5%;

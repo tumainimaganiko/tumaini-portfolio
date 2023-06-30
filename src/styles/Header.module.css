@@ -59,11 +59,9 @@
   text-align: center;
 }
 
-@media ( 600px <= width <= 992px) {
-
+@media (600px <= width <= 992px) {
   .container {
     margin: 10% 5%;
-    
   }
 
   .container p {

@@ -32,7 +32,7 @@
   font-weight: 700;
 }
 
-@media ( 600px <= width <= 992px) {
+@media (600px <= width <= 992px) {
   .container {
     margin: 10% 5%;
   }

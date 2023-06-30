@@ -34,13 +34,13 @@
   width: 20px;
 }
 
-.imgStyles  {
+.imgStyles {
   width: 100%;
   object-fit: cover;
 }
 
-@media ( 600px <= width <= 992px) {
-  .container > div  {
+@media (600px <= width <= 992px) {
+  .container > div {
     display: flex;
     column-gap: 20px;
     border: none;
@@ -74,11 +74,7 @@
     text-align-last: left;
   }
 
-  .iconDiv {
-    justify-content: unsafe;
-  }
-
   .iconDiv div img {
-  margin: 5px 10px;
+    margin: 5px 10px;
   }
 }
