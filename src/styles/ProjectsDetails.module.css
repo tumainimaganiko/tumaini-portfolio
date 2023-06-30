@@ -41,10 +41,21 @@
 
 @media ( 600px <= width <= 992px) {
   .container > div  {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 100%;
+    display: flex;
     column-gap: 20px;
+    border: none;
+  }
+
+  .container > div:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+
+  .container > div div:nth-child(1) {
+    width: 50%;
+  }
+
+  .container > div div:nth-child(2) {
+    width: 50%;
   }
 
   .imgStyles {
