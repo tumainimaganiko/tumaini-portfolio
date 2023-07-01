@@ -5,14 +5,14 @@ import { BsGithub } from "react-icons/bs";
 
 const Header = () => {
   return (
-    <section className="bg-white text-black rounded-3xl m-5 p-5 md:my-[10%] md:mx-[5%]">
+    <section className="bg-white text-black rounded-3xl m-5 p-5 tablet:my-[10%] tablet:mx-[5%]">
       <h2 className="text-3xl italic mt-0 ">hello!</h2>
-      <p className="text-base text-justify leading-5 md:text-left ">
+      <p className="text-base text-justify leading-5 tablet:text-left ">
         I&apos;m Tumaini, and I currently attend Microverse for Full-stack
         development. Welcome to my first web dev project 😎
       </p>
-      <div className="flex mt-5 md:justify-around">
-        <div className="w-[30%] grid grid-cols-2 md:flex justify-around">
+      <div className="flex mt-5 tablet:justify-around">
+        <div className="w-[30%] grid grid-cols-2 tablet:flex justify-around">
           <a
             href="https://www.linkedin.com/in/tumainimaganiko/"
             target="_blank"
@@ -46,7 +46,7 @@ const Header = () => {
             <FaTwitter className="text-2xl text-black" />
           </a>
         </div>
-        <div className="flex flex-col items-center w-[70%] md:flex-row">
+        <div className="flex flex-col items-center w-[70%] tablet:flex-row">
           <a
             href="https://github.com/tumainimaganiko"
             target="_blank"

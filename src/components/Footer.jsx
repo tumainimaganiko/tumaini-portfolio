@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="my-[10%] md:my-[5%] mx-[5%]">
+    <footer className="my-[10%] tablet:my-[5%] mx-[5%]">
       <div className="flex justify-around">
         <a
           href=""

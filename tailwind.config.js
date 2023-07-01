@@ -5,6 +5,9 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    screens: {
+      'tablet': '744px'
+    },
     extend: {
       boxShadow: {
       'xl' : '2px 4px 4px 0 rgba(0, 0, 0, 0.25)'

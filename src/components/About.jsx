@@ -1,7 +1,7 @@
 const About = () => {
   return (
-    <section className="my-[25%] mx-[5%] text-white md:flex md:mx-[5%] md:my-0">
-      <h2 className="text-center text-[28px] italic md:text-left whitespace-nowrap">
+    <section className="my-[25%] mx-[5%] text-white tablet:flex tablet:mx-[5%] tablet:my-0">
+      <h2 className="text-center text-[28px] italic tablet:text-left whitespace-nowrap">
         about me
       </h2>
       <div className="m-[2%]">

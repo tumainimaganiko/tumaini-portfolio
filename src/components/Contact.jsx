@@ -6,7 +6,7 @@ import { FaAngellist } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <section className="text-white border-b border-[#272d2b] pt-0 px-[5%] pb-[70px] md:my-[10%] md:mx[15%]">
+    <section className="text-white border-b border-[#272d2b] pt-0 px-[5%] pb-[70px] tablet:my-[10%] tablet:mx[15%]">
       <h2 className="text-center text-[28px] italic font-normal leading-normal">
         get in touch
       </h2>
