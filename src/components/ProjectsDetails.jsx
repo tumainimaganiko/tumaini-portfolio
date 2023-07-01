@@ -12,39 +12,43 @@ const ProjectsDetails = () => {
       {projects.map((item) => (
         <div
           key={uuid4()}
-          className="border-b border-[#272d2b] py-5 px-0 last:border-none md:flex md:border-none md:gap-x-[20px] md:even:flex-row-reverse"
+          className="border-b border-[#272d2b] py-5 px-0 last:border-none tablet:flex tablet:border-none tablet:gap-x-[20px] tablet:even:flex-row-reverse"
         >
-          <div className="md:w-1/2">
+          <div className="tablet:w-1/2 laptop:w-[60%]">
             <img
               src={item.image}
-              alt="testing"
-              className="w-full object-cover md:w-full md:h-full md:object-fill md:p-0"
+              alt={item.name}
+              className="w-full object-cover tablet:w-full tablet:h-full dark:bg-red-50 tablet:object-fill tablet:p-0"
             />
           </div>
-          <div className="md:w-1/2">
+          <div className="tablet:w-1/2 laptop:w-[40%]">
             <h2 className="m-0 text-[#859591]">{item.name}</h2>
-            <p className="text-left">{item.description}</p>
+            {item.description.split("\n").map((line, index) => (
+              <p className="text-left" key={index}>
+                {line}
+              </p>
+            ))}
             <div className="flex justify-between">
               <div className="flex">
                 <img
                   src={reactLogo}
                   alt=""
-                  className="m-[5px] w-[20px] md:my-[5px] md:mx-[10px]"
+                  className="m-[5px] w-[20px] tablet:my-[5px] tablet:mx-[10px]"
                 />
                 <img
                   src={reduxLogo}
                   alt=""
-                  className="m-[5px] w-[20px] md:my-[5px] md:mx-[10px]"
+                  className="m-[5px] w-[20px] tablet:my-[5px] tablet:mx-[10px]"
                 />
                 <img
                   src={htmlLogo}
                   alt=""
-                  className="m-[5px] w-[20px] md:my-[5px] md:mx-[10px]"
+                  className="m-[5px] w-[20px] tablet:my-[5px] tablet:mx-[10px]"
                 />
                 <img
                   src={cssLogo}
                   alt=""
-                  className="m-[5px] w-[20px] md:my-[5px] md:mx-[10px]"
+                  className="m-[5px] w-[20px] tablet:my-[5px] tablet:mx-[10px]"
                 />
               </div>
               <a

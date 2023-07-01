@@ -2,7 +2,7 @@ import ProjectsDetails from "./ProjectsDetails";
 
 const Projects = () => {
   return (
-    <section className="my-0 mx-[5%]">
+    <section id="project" className="my-0 mx-[5%]">
       <h2 className="text-center font-normal leading-normal italic text-[28px]">
         projects
       </h2>
