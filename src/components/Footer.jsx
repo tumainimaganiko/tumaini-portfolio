@@ -1,22 +1,22 @@
 const Footer = () => {
   return (
-    <footer className="my-[10%] tablet:my-[5%] mx-[5%]">
-      <div className="flex justify-around">
+    <footer className="my-[10%] tablet:my-[5%] mx-[5%] laptop:py-0">
+      <div className="flex justify-around laptop:justify-center">
         <a
-          href=""
-          className="no-underline text-white text-[14px] font-normal leading-normal"
+          href="#about"
+          className="no-underline text-white text-[14px] font-normal leading-normal mx-10"
         >
           ABOUT
         </a>
         <a
-          href=""
-          className="no-underline text-white text-[14px] font-normal leading-normal"
+          href="#project"
+          className="no-underline text-white text-[14px] font-normal leading-normal mx-10"
         >
           PROJECTS
         </a>
         <a
-          href=""
-          className="no-underline text-white text-[14px] font-normal leading-normal"
+          href="#contact"
+          className="no-underline text-white text-[14px] font-normal leading-normal mx-10"
         >
           CONTACT
         </a>
