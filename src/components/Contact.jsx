@@ -23,22 +23,22 @@ const Contact = () => {
         </a>
         <a href="https://www.linkedin.com/in/tumainimaganiko/"
         target="_blank"
-        className="no-underline">
+        className="no-underline" rel="noreferrer">
           <FaLinkedin />
         </a>
         <a href="https://github.com/tumainimaganiko"
         target="_blank"
-        className="no-underline">
+        className="no-underline" rel="noreferrer">
           <BsGithub />
         </a>
         <a href="https://wellfound.com/u/tumaini-maganiko"
         target="_blank"
-        className="no-underline">
+        className="no-underline" rel="noreferrer">
           <FaAngellist />
         </a>
         <a href="https://twitter.com/Chief2maini"
         target="_blank"
-        className="no-underline">
+        className="no-underline" rel="noreferrer">
           <FaTwitter />
         </a>
       </div>
