@@ -63,7 +63,7 @@ In this showcase, I'm thrilled to present a dynamic and interactive web applicat
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
+- [Live Demo Link](https://tumaini-maganiko-portfolio.onrender.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
