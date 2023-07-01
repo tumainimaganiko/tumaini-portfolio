@@ -53,6 +53,7 @@ const ProjectsDetails = () => {
               </div>
               <a
                 href={item.githubLink}
+                target="_blank"
                 className="no-underline bg-[#2f3634] text-white py-[10px] px-[15px] rounded-[30px] text-[14px] font-bold"
               >
                 VIEW CODE
