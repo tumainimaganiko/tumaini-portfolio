@@ -1,6 +1,6 @@
 const Interests = () => {
   return (
-    <section className="my-[25%] mx-[5%] tablet:my-[10%] tablet:mx-[5%]">
+    <section className="my-[25%] mx-[5%] tablet:my-[10%] tablet:mx-[5%] desktop:mx-[10%]">
       <h2 className="text-center text-[28px] italic">interests</h2>
       <p className="text-center pt-2">
         Some things I enjoy learning about & doing

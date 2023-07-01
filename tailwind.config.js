@@ -7,7 +7,8 @@ export default {
   theme: {
     screens: {
       'tablet': '744px',
-      'laptop': '1065px'
+      'laptop': '1065px',
+      'desktop': '1440px',
     },
     extend: {
       boxShadow: {
