@@ -3,7 +3,6 @@ import { FaLinkedin } from "react-icons/fa";
 import { BsGithub } from "react-icons/bs";
 import { FaTwitter } from "react-icons/fa";
 import { FaAngellist } from "react-icons/fa";
-import styles from "../styles/Contact.module.css";
 
 const Contact = () => {
   return (

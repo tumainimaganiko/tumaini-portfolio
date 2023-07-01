@@ -1,14 +1,12 @@
-import styles from "../styles/Footer.module.css";
-
 const Footer = () => {
   return (
-    <footer className={styles.container}>
-      <div>
-        <a href="">ABOUT</a>
-        <a href="">PROJECTS</a>
-        <a href="">CONTACT</a>
+    <footer className="my-[10%] md:my-[5%] mx-[5%]">
+      <div className="flex justify-around">
+        <a href="" className="no-underline text-white text-[14px] font-normal leading-normal">ABOUT</a>
+        <a href="" className="no-underline text-white text-[14px] font-normal leading-normal">PROJECTS</a>
+        <a href="" className="no-underline text-white text-[14px] font-normal leading-normal">CONTACT</a>
       </div>
-      <p>@2023 Tumaini Maganiko All Rights Reserved</p>
+      <p className="font-normal leading-normal pt-5 text-center">@2023 Tumaini Maganiko All Rights Reserved</p>
     </footer>
   );
 };
