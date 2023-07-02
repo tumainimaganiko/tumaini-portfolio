@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { HiXMark } from "react-icons/hi2";
 
 const MobileMenu = ({ display, updateDisplay }) => {
@@ -30,3 +31,8 @@ const MobileMenu = ({ display, updateDisplay }) => {
 };
 
 export default MobileMenu;
+
+MobileMenu.propTypes = PropTypes.shape({
+  display: PropTypes.bool,
+  updateDisplay: PropTypes.func
+}).isRequired
