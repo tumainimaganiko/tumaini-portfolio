@@ -9,13 +9,19 @@ const MobileMenu = ({ display, updateDisplay }) => {
           </button>
           <ul className="flex flex-col items-center gap-y-3 my-9 ">
             <li className="m-1">
+              <button onClick={() => updateDisplay(false)}>
               <a className="p-2 border m-3 rounded-3xl text-xs active:bg-[#2F3634] border-[#2F3634]" href="#about">ABOUT</a>
+              </button>
             </li>
             <li className="m-1">
+              <button onClick={() => updateDisplay(false)}>
               <a className="p-2 border m-3 rounded-3xl text-xs active:bg-[#2F3634] border-[#2F3634]" href="#project">PROJECTS</a>
+              </button>
             </li>
             <li className="m-1">
+              <button onClick={() => updateDisplay(false)}>
               <a className="p-2 border m-3 rounded-3xl text-xs active:bg-[#2F3634] border-[#2F3634]" href="#contact">GET IN TOUCH</a>
+              </button>
             </li>
           </ul>
         </div>
