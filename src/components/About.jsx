@@ -6,7 +6,7 @@ const About = () => {
       </h2>
       <div className="m-[2%] laptop:my-1">
         <p className="text-justify mb-2 ">
-          Welcome to my portfolio! I&apos;m Tumaini Maganiko, a dedicated
+          Welcome! I&apos;m Tumaini Maganiko, a dedicated
           full-stack software developer with a passion for crafting innovative
           digital solutions. From front-end design to back-end development, I
           strive to create intuitive user experiences and build robust, scalable

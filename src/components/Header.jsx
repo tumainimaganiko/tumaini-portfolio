@@ -8,8 +8,9 @@ const Header = () => {
     <section className="bg-white text-black rounded-3xl m-5 p-5 tablet:my-[10%] tablet:mx-[5%] laptop:p-16 desktop:mx-[10%]">
       <h2 className="text-3xl italic mt-0 ">hello!</h2>
       <p className="text-base text-justify leading-5 tablet:text-left ">
-        I&apos;m Tumaini, and I currently attend Microverse for Full-stack
-        development. Welcome to my first web dev project 😎
+        I am a software developer working productively in dynamic environments.
+        Proud team player focused on achieving project objectives with speed and
+        accuracy. 😎
       </p>
       <div className="flex mt-5 tablet:justify-around laptop:justify-between">
         <div className="w-[30%] grid grid-cols-2 tablet:w-1/2 tablet:flex tablet:justify-around laptop:w-[30%] laptop:justify-start">

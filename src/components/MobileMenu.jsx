@@ -4,7 +4,7 @@ import { HiXMark } from "react-icons/hi2";
 const MobileMenu = ({ display, updateDisplay }) => {
   return (
     display && (
-      <div className="bg-black text-white opacity-90 fixed w-full  h-full top-0">
+      <div className="bg-black text-white opacity-90 fixed w-full  h-full top-0 bottom-0 right-0 left-0">
           <button onClick={() => updateDisplay(false)} className="absolute top-2 right-2 text-2xl">
             <HiXMark />
           </button>
