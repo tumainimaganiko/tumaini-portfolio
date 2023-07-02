@@ -3,24 +3,22 @@ import { HiXMark } from "react-icons/hi2";
 const MobileMenu = ({ display, updateDisplay }) => {
   return (
     display && (
-      <div className="fixed left-0 right-0 top-0 bottom-0 bg-black opacity-80 z-20 backdrop-blur-lg">
-      <div className="bg-blue-600 fixed w-[90%] mx-[5%] h-[90%] top-[5%] bottom-[5%]">
-          <button onClick={() => updateDisplay(false)}>
+      <div className="bg-black text-white opacity-90 fixed w-full  h-full top-0">
+          <button onClick={() => updateDisplay(false)} className="absolute top-2 right-2 text-2xl">
             <HiXMark />
           </button>
-          <ul>
-            <li>
-              <a href="#about">ABOUT</a>
+          <ul className="flex flex-col items-center gap-y-3 my-9 ">
+            <li className="m-1">
+              <a className="p-2 border m-3 rounded-3xl text-xs active:bg-[#2F3634] border-[#2F3634]" href="#about">ABOUT</a>
             </li>
-            <li>
-              <a href="#about">PROJECTS</a>
+            <li className="m-1">
+              <a className="p-2 border m-3 rounded-3xl text-xs active:bg-[#2F3634] border-[#2F3634]" href="#project">PROJECTS</a>
             </li>
-            <li>
-              <a href="#about">GET IN TOUCH</a>
+            <li className="m-1">
+              <a className="p-2 border m-3 rounded-3xl text-xs active:bg-[#2F3634] border-[#2F3634]" href="#contact">GET IN TOUCH</a>
             </li>
           </ul>
         </div>
-       </div>
     )
   );
 };
