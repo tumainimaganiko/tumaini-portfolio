@@ -7,7 +7,7 @@ import atlasImage from "../../assets/images/globalAtlas.png";
 const initialState = {
   projects: [
     {
-      id:1,
+      id:0,
       name: "The Global Atlas",
       description: `
         The Global Atlas project is a Single Page App (SPA) that aims to create a comprehensive and interactive global atlas of various geographical data.
@@ -20,7 +20,7 @@ const initialState = {
       githubLink: "https://github.com/tumainimaganiko/global-atlas",
     },
     {
-      id:2,
+      id:1,
       name: "Space Travelers' Hub",
       description: `Space Travelers' Hub is a cutting-edge React application developed for a pioneering company specializing in space transportation via rockets.
         This dynamic web application empowers users to seamlessly book rockets and participate in thrilling space missions.
@@ -31,7 +31,7 @@ const initialState = {
       githubLink: "https://github.com/tumainimaganiko/space-travelers",
     },
     {
-      id:3,
+      id:2,
       name: "Bookstore",
       description: `
       The bookstore is a sophisticated React application designed to streamline the management of a collection of books.
@@ -45,7 +45,7 @@ const initialState = {
       githubLink: "https://github.com/tumainimaganiko/react-bookstore",
     },
     {
-      id:4,
+      id:3,
       name: "Math Magicians",
       description:`
       The Math-magicians application is an innovative React-based tool designed to assist users in performing various mathematical calculations with ease and efficiency.
