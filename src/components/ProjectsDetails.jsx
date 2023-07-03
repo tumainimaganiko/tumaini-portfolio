@@ -2,14 +2,24 @@ import reactLogo from "../assets/images/react-1.svg";
 import reduxLogo from "../assets/images/redux.svg";
 import uuid4 from "uuid4";
 import cssLogo from "../assets/images/css-3.svg";
-import { HiXMark } from "react-icons/hi2";
 import htmlLogo from "../assets/images/html-1.svg";
 import { useSelector } from "react-redux";
 import { useState } from "react";
+import Popup from "./popUp";
 
 const ProjectsDetails = () => {
   const { projects } = useSelector((store) => store.projects);
   const [popup, setPopup] = useState(false);
+  const [id,setId] = useState(0);
+  const handlePopup = (x) => {
+    setId(x);
+    setPopup(true)
+  }
+
+  const updatePopup = (value) => {
+    setPopup(value);
+  }
+
   return (
     <section className="pb-[28px]">
       {projects.map((item,index) => (
@@ -57,20 +67,13 @@ const ProjectsDetails = () => {
                   />
                 </div>
                 <button
-                  onClick={() => setPopup(true)}
+                  onClick={() => handlePopup(item.id)}
                   className="no-underline bg-[#2f3634] text-white py-[10px] px-[15px] rounded-[30px] text-[14px] font-bold"
                 >
                   VIEW CODE
                 </button>
               </div>
             </div>
-            {popup && (
-            <div className="fixed top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] h-3/4 w-1/2 border border-red-600">
-              <button onClick={() => setPopup(false)} className="fixed right-1 top-1">
-                <HiXMark />
-              </button>
-            </div>
-          )}
           </div>
           
         </>
