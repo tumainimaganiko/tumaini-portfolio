@@ -23,7 +23,6 @@ const ProjectsDetails = () => {
   return (
     <section className="pb-[28px]">
       {projects.map((item,index) => (
-        <>
           <div
             key={uuid4()}
             id={index}
@@ -74,9 +73,8 @@ const ProjectsDetails = () => {
                 </button>
               </div>
             </div>
-          </div>
           <Popup popup={popup} updatePopup={updatePopup} id={id}/>
-        </>
+          </div>
       ))}
     </section>
   );
