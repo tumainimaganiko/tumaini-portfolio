@@ -75,7 +75,7 @@ const ProjectsDetails = () => {
               </div>
             </div>
           </div>
-          
+          <Popup popup={popup} updatePopup={updatePopup} id={id}/>
         </>
       ))}
     </section>
