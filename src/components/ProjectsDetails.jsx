@@ -65,7 +65,7 @@ const ProjectsDetails = () => {
               </div>
             </div>
             {popup && (
-            <div>
+            <div className="fixed top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] h-3/4 w-1/2 border border-red-600">
               <button onClick={() => setPopup(false)} className="fixed right-1 top-1">
                 <HiXMark />
               </button>
