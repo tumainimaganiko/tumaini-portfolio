@@ -5,7 +5,7 @@ import cssLogo from "../assets/images/css-3.svg";
 import htmlLogo from "../assets/images/html-1.svg";
 import { useSelector } from "react-redux";
 import { useState } from "react";
-import Popup from "./popUp";
+import Popup from "./Popup";
 
 const ProjectsDetails = () => {
   const { projects } = useSelector((store) => store.projects);
