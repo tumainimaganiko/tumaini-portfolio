@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { HiXMark } from "react-icons/hi2";
 import { useSelector } from "react-redux";
 
@@ -25,14 +26,14 @@ const Popup = ({ popup, updatePopup, id }) => {
                     <a
                       className="px-4 bg-[#272D2B] border border-[#272D2B]laptop:bg-[black] hover:laptop:bg-[bisque]  rounded-3xl text-xs text-white hover:text-black hover:border-black py-2"
                       href={projects[id].liveLink}
-                      target="_blank"
+                      target="_blank" rel="noreferrer"
                     >
                       SEE LIVE
                     </a>
                     <a
                       className="px-4 bg-[#272D2B] border border-[#272D2B]laptop:bg-[black] hover:laptop:bg-[bisque]  rounded-3xl text-xs text-white hover:text-black hover:border-black py-2"
                       href={projects[id].githubLink}
-                      target="_blank"
+                      target="_blank" rel="noreferrer"
                     >
                       SEE SOURCE
                     </a>
@@ -42,14 +43,14 @@ const Popup = ({ popup, updatePopup, id }) => {
                     <a
                       className="px-4 bg-[#272D2B] border border-[#272D2B]laptop:bg-[black] hover:laptop:bg-blue-500  rounded-3xl text-xs text-white py-2"
                       href={projects[id].liveLink}
-                      target="_blank"
+                      target="_blank" rel="noreferrer"
                     >
                       SEE LIVE
                     </a>
                     <a
                       className="px-4 bg-[#272D2B] border border-[#272D2B]laptop:bg-[black] hover:laptop:bg-blue-500  rounded-3xl text-xs text-white py-2"
                       href={projects[id].githubLink}
-                      target="_blank"
+                      target="_blank" rel="noreferrer"
                     >
                       SEE SOURCE
                     </a>
@@ -66,3 +67,9 @@ const Popup = ({ popup, updatePopup, id }) => {
 };
 
 export default Popup;
+
+Popup.propTypes = PropTypes.shape({
+    popup: PropTypes.bool,
+    updatePopup: PropTypes.func,
+    id: PropTypes.number
+}).isRequired;
