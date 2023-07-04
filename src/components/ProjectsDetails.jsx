@@ -4,14 +4,28 @@ import uuid4 from "uuid4";
 import cssLogo from "../assets/images/css-3.svg";
 import htmlLogo from "../assets/images/html-1.svg";
 import { useSelector } from "react-redux";
+import { useState } from "react";
+import Popup from "./popUp";
 
 const ProjectsDetails = () => {
   const { projects } = useSelector((store) => store.projects);
+  const [popup, setPopup] = useState(false);
+  const [id, setId] = useState(0);
+  const handlePopup = (x) => {
+    setId(x);
+    setPopup(true);
+  };
+
+  const updatePopup = (value) => {
+    setPopup(value);
+  };
+
   return (
     <section className="pb-[28px]">
-      {projects.map((item) => (
+      {projects.map((item, index) => (
         <div
           key={uuid4()}
+          id={index}
           className="border-b border-[#272d2b] py-5 px-0 last:border-none tablet:flex tablet:border-none tablet:gap-x-[20px] tablet:even:flex-row-reverse"
         >
           <div className="tablet:w-1/2 laptop:w-[60%]">
@@ -51,15 +65,15 @@ const ProjectsDetails = () => {
                   className="m-[5px] w-[20px] tablet:my-[5px] tablet:mx-[10px]"
                 />
               </div>
-              <a
-                href={item.githubLink}
-                target="_blank"
-                className="no-underline bg-[#2f3634] text-white py-[10px] px-[15px] rounded-[30px] text-[14px] font-bold" rel="noreferrer"
+              <button
+                onClick={() => handlePopup(item.id)}
+                className="no-underline bg-[#2f3634] text-white py-[10px] px-[15px] rounded-[30px] text-[14px] font-bold hover:bg-slate-700"
               >
-                VIEW CODE
-              </a>
+                DETAILS
+              </button>
             </div>
           </div>
+          <Popup popup={popup} updatePopup={updatePopup} id={id} />
         </div>
       ))}
     </section>
