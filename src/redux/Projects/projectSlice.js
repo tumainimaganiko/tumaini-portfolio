@@ -17,6 +17,7 @@ const initialState = {
         `,
       image: atlasImage,
       githubLink: "https://github.com/tumainimaganiko/global-atlas",
+      liveLink: "https://global-atlas.onrender.com/"
     },
     {
       id: 1,
@@ -28,6 +29,7 @@ const initialState = {
         `,
       image: spaceImage,
       githubLink: "https://github.com/tumainimaganiko/space-travelers",
+      liveLink: "https://space-travelers-uoqt.onrender.com/"
     },
     {
       id: 2,
@@ -40,6 +42,7 @@ const initialState = {
       `,
       image: bookstoreImage,
       githubLink: "https://github.com/tumainimaganiko/react-bookstore",
+      liveLink: "https://bookstore-did8.onrender.com/"
     },
     {
       id: 3,
@@ -51,6 +54,7 @@ const initialState = {
       `,
       image: calculatorImage,
       githubLink: "https://github.com/tumainimaganiko/math-magicians",
+      liveLink: "https://mathematician-app.onrender.com/"
     },
   ],
 };
