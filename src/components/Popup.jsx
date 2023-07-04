@@ -19,12 +19,12 @@ const Popup = ({ popup, updatePopup, id }) => {
               {projects[id].name}
               </h2>
               <img className="w-full h-1/2" src={projects[id].image} alt="" />
-              <p className="">
+              <p className="text-justify">
               {projects[id].description}
               </p>
               <div className="flex justify-between">
-                <a className="px-4 bg-[#272D2B] text-white py-2" href={projects[id].liveLink} target="_blank">SEE LIVE</a>
-                <a className="px-4 bg-[#272D2B] text-white py-2" href={projects[id].githubLink} target="_blank">SEE SOURCE</a>
+                <a className="px-4 bg-[#272D2B] border border-[#272D2B] rounded-3xl text-xs text-white py-2" href={projects[id].liveLink} target="_blank">SEE LIVE</a>
+                <a className="px-4 bg-[#272D2B] border border-[#272D2B] rounded-3xl text-xs text-white py-2" href={projects[id].githubLink} target="_blank">SEE SOURCE</a>
               </div>
             </div>
           </div>
