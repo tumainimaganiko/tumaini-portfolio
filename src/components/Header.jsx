@@ -49,17 +49,13 @@ const Header = () => {
         </div>
         <div className="flex flex-col items-center w-[70%] tablet:w-1/2 tablet:justify-between tablet:flex-row laptop:w-[40%] laptop:justify-end">
           <a
-            href="https://github.com/tumainimaganiko"
-            target="_blank"
-            rel="noreferrer"
+            href="#project"
             className="no-underline py-[5px] px-[15px] border border-slate-950 rounded-[20px] text-slate-950 text-[11px] font-bold m-[2px] w-[165px] text-center hover:bg-[#2F3634] hover:text-white"
           >
             VIEW PROJECTS
           </a>
           <a
-            href="https://github.com/tumainimaganiko"
-            target="_blank"
-            rel="noreferrer"
+            href="#contact"
             className="no-underline py-[5px] px-[15px] border border-slate-950 rounded-[20px] text-slate-950 text-[11px] font-bold m-[2px] w-[165px] text-center hover:bg-[#2F3634] hover:text-white"
           >
             GET IN TOUCH
