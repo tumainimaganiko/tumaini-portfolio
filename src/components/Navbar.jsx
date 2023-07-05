@@ -4,9 +4,6 @@ import MobileMenu from "./MobileMenu";
 
 const Navbar = () => {
   const [display, setDisplay] = useState(false);
-  const updateDisplay = (view) => {
-    setDisplay(view);
-  };
   return (
     <>
       {!display && (
@@ -37,7 +34,7 @@ const Navbar = () => {
           </div>
         </nav>
       )}
-      <MobileMenu display={display} updateDisplay={updateDisplay} />
+      <MobileMenu display={display} updateDisplay={(view) => setDisplay(view)} />
     </>
   );
 };

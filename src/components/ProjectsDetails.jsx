@@ -16,10 +16,6 @@ const ProjectsDetails = () => {
     setPopup(true);
   };
 
-  const updatePopup = (value) => {
-    setPopup(value);
-  };
-
   return (
     <section className="pb-[28px]">
       {projects.map((item, index) => (
@@ -73,7 +69,7 @@ const ProjectsDetails = () => {
               </button>
             </div>
           </div>
-          <Popup popup={popup} updatePopup={updatePopup} id={id} />
+          <Popup popup={popup} updatePopup={(value) => setPopup(value)} id={id} />
         </div>
       ))}
     </section>
