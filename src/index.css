@@ -12,6 +12,11 @@
   src: url(./assets/fonts/AvenirNextLTPro-Regular.otf);
 }
 
+@font-face {
+  font-family: neutralface;
+  src: url(./assets/fonts/NeutralFace.otf);
+}
+
 h1 {
   font-family: mazius;
 }
