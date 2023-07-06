@@ -6,7 +6,7 @@ import { BsGithub } from "react-icons/bs";
 const Header = () => {
   return (
     <section className="bg-white text-black rounded-3xl m-5 p-5 tablet:my-[10%] tablet:mx-[5%] laptop:p-16 desktop:mx-[10%]">
-      <h2 className="text-3xl italic mt-0 ">hello!</h2>
+      <h2 className="text-3xl italic mt-0 font-[mazius]">hello!</h2>
       <p className="text-base text-justify leading-5 tablet:text-left font-[avenir] font-normal">
         I am a software developer working productively in dynamic environments.
         Proud team player focused on achieving project objectives with speed and
@@ -50,13 +50,13 @@ const Header = () => {
         <div className="flex flex-col items-center w-[70%] tablet:w-1/2 tablet:justify-between tablet:flex-row laptop:w-[40%] laptop:justify-end">
           <a
             href="#project"
-            className="no-underline py-[5px] px-[15px] border border-slate-950 rounded-[20px] text-slate-950 text-[11px] font-bold m-[2px] w-[165px] text-center hover:bg-[#2F3634] hover:text-white"
+            className="no-underline py-[5px] px-[15px] border border-slate-950 rounded-[20px] text-slate-950 text-[11px] font-bold m-[2px] w-[165px] text-center hover:bg-[#2F3634] hover:text-white font-[neutralface]"
           >
             VIEW PROJECTS
           </a>
           <a
             href="#contact"
-            className="no-underline py-[5px] px-[15px] border border-slate-950 rounded-[20px] text-slate-950 text-[11px] font-bold m-[2px] w-[165px] text-center hover:bg-[#2F3634] hover:text-white"
+            className="no-underline py-[5px] px-[15px] border border-slate-950 rounded-[20px] text-slate-950 text-[11px] font-bold m-[2px] w-[165px] text-center hover:bg-[#2F3634] hover:text-white font-[neutralface]"
           >
             GET IN TOUCH
           </a>
