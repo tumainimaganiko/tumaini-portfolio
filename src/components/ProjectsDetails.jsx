@@ -32,9 +32,9 @@ const ProjectsDetails = () => {
             />
           </div>
           <div className="tablet:w-1/2 laptop:w-[40%]">
-            <h2 className="m-0 text-[#859591]">{item.name}</h2>
+            <h2 className="m-0 text-[#859591] font-[mazius]">{item.name}</h2>
             {item.description.split("\n").map((line, index) => (
-              <p className="text-left" key={index}>
+              <p className="text-left font-[avenir]" key={index}>
                 {line}
               </p>
             ))}
@@ -63,7 +63,7 @@ const ProjectsDetails = () => {
               </div>
               <button
                 onClick={() => handlePopup(item.id)}
-                className="no-underline bg-[#2f3634] text-white py-[10px] px-[15px] rounded-[30px] text-[14px] font-bold hover:bg-slate-700"
+                className="no-underline font-[neutralface] bg-[#2f3634] text-white py-[10px] px-[15px] rounded-[30px] text-[14px] font-bold hover:bg-slate-700"
               >
                 DETAILS
               </button>
