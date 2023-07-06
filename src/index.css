@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: mazius;
+  src: url(./assets/fonts/MAZIUS\ REVIEW\ 20.09\ Italic\ 400.otf);
+}
+
+@font-face {
+  font-family: avenir;
+  src: url(./assets/fonts/AvenirNextLTPro-Regular.otf);
+}
+
+h1 {
+  font-family: mazius;
+}
 * {
   scroll-behavior: smooth;
 }
