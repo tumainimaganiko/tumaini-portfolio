@@ -8,7 +8,7 @@ const Navbar = () => {
     <>
       {!display && (
         <nav className="flex justify-between text-center p-4 border-b border-[#272D2B] items-center">
-          <h1 className="text-3xl italic tablet:text-4xl">Tumaini Maganiko</h1>
+          <h1 className="text-3xl italic font-[mazius] tablet:text-4xl">Tumaini Maganiko</h1>
           <button onClick={() => setDisplay(true)}>
             <GiHamburgerMenu className="text-2xl tablet:text-4xl laptop:hidden" />
           </button>
