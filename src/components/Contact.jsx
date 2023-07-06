@@ -10,10 +10,10 @@ const Contact = () => {
       id="contact"
       className="text-white border-b border-[#272d2b] pt-0 px-[5%] pb-[70px] tablet:my-[10%] tablet:mx[15%] laptop:px-[20%] tablet:mb-0"
     >
-      <h2 className="text-center text-[28px] italic font-normal leading-normal">
+      <h2 className="text-center font-[mazius] text-[28px] italic font-normal leading-normal">
         get in touch
       </h2>
-      <p className="text-center">
+      <p className="text-center font-[avenir]">
         I&apos;m currently open to new opportunities, inbox is always open! Find
         me everywhere @tumainimaganiko
       </p>
