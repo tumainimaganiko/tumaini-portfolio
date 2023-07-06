@@ -34,7 +34,10 @@ const Navbar = () => {
           </div>
         </nav>
       )}
-      <MobileMenu display={display} updateDisplay={(view) => setDisplay(view)} />
+      <MobileMenu
+        display={display}
+        updateDisplay={(view) => setDisplay(view)}
+      />
     </>
   );
 };
