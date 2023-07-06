@@ -12,7 +12,7 @@ const Navbar = () => {
           <button onClick={() => setDisplay(true)}>
             <GiHamburgerMenu className="text-2xl tablet:text-4xl laptop:hidden" />
           </button>
-          <div className="hidden laptop:block">
+          <div className="hidden font-[neutralface] laptop:block">
             <a
               href="#about"
               className="p-2 border m-3 rounded-3xl text-xs hover:bg-[#2F3634] border-[#2F3634]"
