@@ -5,7 +5,7 @@ import { BsGithub } from "react-icons/bs";
 
 const Header = () => {
   return (
-    <section className="bg-slate-800 text-white dark:bg-white dark:text-black rounded-3xl m-5 p-5 tablet:my-[10%] tablet:mx-[5%] laptop:p-16 desktop:mx-[10%] ">
+    <section className="bg-black text-white dark:bg-white dark:text-black rounded-3xl m-5 p-5 tablet:my-[10%] tablet:mx-[5%] laptop:p-16 desktop:mx-[10%] ">
       <h2 className="text-3xl italic mt-0 font-[mazius]">hello!</h2>
       <p className="text-base text-justify leading-5 tablet:text-left font-[avenir] font-normal">
         I am a software developer working productively in dynamic environments.
