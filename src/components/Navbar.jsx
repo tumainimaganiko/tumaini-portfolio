@@ -19,23 +19,23 @@ const Navbar = () => {
           <div className="hidden font-[neutralface] laptop:block">
             <a
               href="#about"
-              className="p-2 border m-3 rounded-3xl text-xs hover:bg-[#2F3634] border-[#2F3634]"
+              className="p-2 border m-3 rounded-3xl text-xs hover:bg-black hover:text-white dark:hover:bg-[#2F3634] border-[#2F3634]"
             >
               ABOUT
             </a>
             <a
               href="#project"
-              className="p-2 border m-3 rounded-3xl text-xs hover:bg-[#2F3634] border-[#2F3634]"
+              className="p-2 border m-3 rounded-3xl text-xs hover:bg-black hover:text-white dark:hover:bg-[#2F3634] border-[#2F3634]"
             >
               PROJECTS
             </a>
             <a
               href="#contact"
-              className="p-2 border m-3 rounded-3xl text-xs hover:bg-[#2F3634] border-[#2F3634]"
+              className="p-2 border m-3 rounded-3xl text-xs hover:bg-black hover:text-white dark:hover:bg-[#2F3634] border-[#2F3634]"
             >
               GET IN TOUCH
             </a>
-            <DarkMode myClass={"p-2 border m-3 rounded-3xl text-xs hover:bg-[#2F3634] border-[#2F3634]"} />
+            <DarkMode myClass={"p-2 border m-3 rounded-3xl text-xs hover:bg-black hover:text-white dark:hover:bg-[#2F3634] border-[#2F3634]"} />
           </div>
         </nav>
       )}
