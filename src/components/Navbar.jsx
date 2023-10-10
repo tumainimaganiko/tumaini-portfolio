@@ -10,13 +10,13 @@ const Navbar = () => {
       {!display && (
         <nav className="flex justify-between text-center p-4 border-b border-[#272D2B] items-center">
           <h1 className="text-3xl italic font-[mazius] tablet:text-4xl">Tumaini Maganiko</h1>
-          <div className="laptop:hidden">
+          <div className="tablet:hidden">
+          <DarkMode myClass={"text-2xl"}/>
           <button onClick={() => setDisplay(true)}>
-            <GiHamburgerMenu className="text-2xl tablet:text-4xl" />
+            <GiHamburgerMenu className="text-2xl" />
           </button>
-          <DarkMode myClass={"text-2xl tablet:text-4xl"}/>
           </div>
-          <div className="hidden font-[neutralface] laptop:block">
+          <div className="hidden font-[neutralface] tablet:block">
             <a
               href="#about"
               className="p-2 border m-3 rounded-3xl text-xs hover:bg-black hover:text-white dark:hover:bg-[#2F3634] border-[#2F3634]"
