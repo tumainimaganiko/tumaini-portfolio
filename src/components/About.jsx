@@ -2,7 +2,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="my-[25%] mx-[5%] text-white tablet:flex tablet:mx-[5%] tablet:my-0 laptop:w-[60%] laptop:my-0 laptop:mx-auto"
+      className="my-[25%] mx-[5%] dark:text-white tablet:flex tablet:mx-[5%] tablet:my-0 laptop:w-[60%] laptop:my-0 laptop:mx-auto"
     >
       <h2 className="text-center text-[28px] laptop:text-3xl italic tablet:text-left whitespace-nowrap font-[mazius]">
         about me
