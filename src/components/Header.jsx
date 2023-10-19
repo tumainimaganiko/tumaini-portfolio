@@ -13,8 +13,20 @@ const Header = () => {
   accuracy. 😎
   `
 
-  
+  useEffect(() => {
+    let charIndex = 0;
+    const typeText = () => {
+      if (charIndex < message.length) {
+        setText((prevText) => prevText + message.charAt(charIndex));
+        charIndex += 1;
+      }
+    };
 
+    const typingInterval = setInterval(typeText, 50);
+
+    return () => clearInterval(typingInterval);
+  }, []);
+  
   return (
     <section className="bg-black text-white dark:bg-white dark:text-black rounded-3xl m-5 p-5 tablet:my-[10%] tablet:mx-[5%] laptop:p-16 desktop:mx-[10%] ">
       <h2 className="text-3xl italic mt-0 font-[mazius]">hello!</h2>
