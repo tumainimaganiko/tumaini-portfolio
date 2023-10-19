@@ -1,4 +1,4 @@
-import reactLogo from "../assets/images/react-1.svg";
+import reactLogo from "../assets/images/react-2.svg";
 import reduxLogo from "../assets/images/redux.svg";
 import uuid4 from "uuid4";
 import cssLogo from "../assets/images/css-3.svg";
