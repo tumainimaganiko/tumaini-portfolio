@@ -3,6 +3,9 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaAngellist } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { BsGithub } from "react-icons/bs";
+import linkedin from "../assets/images/linkedin-icon-2.svg";
+import twitter from "../assets/images/twitter-x-seeklogo.com-4 2.svg";
+import twitter2 from "../assets/images/twitter-x-seeklogo.com-4.svg";
 
 const Header = () => {
 
@@ -41,7 +44,7 @@ const Header = () => {
             rel="noreferrer"
             className="p-0 mx-2"
           >
-            <FaLinkedin className="text-2xl text-white dark:text-black" />
+          <img src={linkedin} alt="linkedin logo" className="m-[5px] w-[20px] tablet:my-[5px] tablet:mx-[10px]" />
           </a>
           <a
             href="https://github.com/tumainimaganiko"
@@ -65,7 +68,8 @@ const Header = () => {
             rel="noreferrer"
             className="p-0 mx-2"
           >
-            <FaTwitter className="text-2xl text-white dark:text-black" />
+            <img src={twitter} alt="twitter logo" className="dark:hidden w-[40px] " />
+          <img src={twitter2} alt="twitter logo" className="hidden dark:block  w-[40px]" />
           </a>
         </div>
         <div className="flex flex-col items-center w-[70%] tablet:w-1/2 tablet:justify-between tablet:flex-row laptop:w-[40%] laptop:justify-end">
