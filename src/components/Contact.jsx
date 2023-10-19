@@ -4,6 +4,7 @@ import { FaTwitter } from "react-icons/fa";
 import { FaAngellist } from "react-icons/fa";
 import gmail from "../assets/images/official-gmail-icon-2020-.svg";
 import linkedin from "../assets/images/linkedin-icon-2.svg";
+import twitter from "../assets/images/Twitter X.svg";
 
 const Contact = () => {
   return (
@@ -52,12 +53,12 @@ const Contact = () => {
           <FaAngellist />
         </a>
         <a
-          href="https://twitter.com/Chief2maini"
+          href="https://twitter.com/2mainimaganiko"
           target="_blank"
           className="no-underline laptop:mx-5"
           rel="noreferrer"
         >
-          <FaTwitter />
+          <img src={twitter} alt="react logo" className="m-[5px] w-[20px] tablet:my-[5px] tablet:mx-[10px]" />
         </a>
       </div>
     </section>
