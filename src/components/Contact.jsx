@@ -1,14 +1,14 @@
-import { BiLogoGmail } from "react-icons/bi";
 import { FaLinkedin } from "react-icons/fa";
 import { BsGithub } from "react-icons/bs";
 import { FaTwitter } from "react-icons/fa";
 import { FaAngellist } from "react-icons/fa";
+import gmail from "../assets/images/official-gmail-icon-2020-.svg";
 
 const Contact = () => {
   return (
     <section
       id="contact"
-      className="text-white border-b border-[#272d2b] pt-0 px-[5%] pb-[70px] tablet:my-[10%] tablet:mx[15%] laptop:px-[20%] tablet:mb-0"
+      className="text-black dark:bg-black dark:text-white border-b border-[#272d2b] pt-0 px-[5%] pb-[70px] tablet:my-[10%] tablet:mx[15%] laptop:px-[20%] tablet:mb-0"
     >
       <h2 className="text-center font-[mazius] text-[28px] italic font-normal leading-normal">
         get in touch
@@ -24,7 +24,7 @@ const Contact = () => {
           rel="noreferrer"
           className="no-underline laptop:mx-5"
         >
-          <BiLogoGmail />
+          <img src={gmail} alt="react logo" className="m-[5px] w-[20px] tablet:my-[5px] tablet:mx-[10px]" />
         </a>
         <a
           href="https://www.linkedin.com/in/tumainimaganiko/"
