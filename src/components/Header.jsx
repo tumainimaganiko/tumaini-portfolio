@@ -1,16 +1,25 @@
+import { useEffect, useState } from "react";
 import { FaLinkedin } from "react-icons/fa";
 import { FaAngellist } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { BsGithub } from "react-icons/bs";
 
 const Header = () => {
+
+  const [text, setText] = useState('');
+  const message = `
+  I am a software developer working productively in dynamic environments.
+  Proud team player focused on achieving project objectives with speed and
+  accuracy. 😎
+  `
+
+  
+
   return (
     <section className="bg-black text-white dark:bg-white dark:text-black rounded-3xl m-5 p-5 tablet:my-[10%] tablet:mx-[5%] laptop:p-16 desktop:mx-[10%] ">
       <h2 className="text-3xl italic mt-0 font-[mazius]">hello!</h2>
       <p className="text-base text-justify leading-5 tablet:text-left font-[avenir] font-normal">
-        I am a software developer working productively in dynamic environments.
-        Proud team player focused on achieving project objectives with speed and
-        accuracy. 😎
+        {text}
       </p>
       <div className="flex mt-5 tablet:justify-around laptop:justify-between">
         <div className="w-[30%] grid grid-cols-2 tablet:w-1/2 tablet:flex tablet:justify-around laptop:w-[30%] laptop:justify-start">
