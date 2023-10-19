@@ -3,6 +3,7 @@ import { BsGithub } from "react-icons/bs";
 import { FaTwitter } from "react-icons/fa";
 import { FaAngellist } from "react-icons/fa";
 import gmail from "../assets/images/official-gmail-icon-2020-.svg";
+import linkedin from "../assets/images/linkedin-icon-2.svg";
 
 const Contact = () => {
   return (
@@ -32,7 +33,7 @@ const Contact = () => {
           className="no-underline laptop:mx-5"
           rel="noreferrer"
         >
-          <FaLinkedin />
+          <img src={linkedin} alt="react logo" className="m-[5px] w-[20px] tablet:my-[5px] tablet:mx-[10px]" />
         </a>
         <a
           href="https://github.com/tumainimaganiko"
