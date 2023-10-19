@@ -1,10 +1,9 @@
-import { FaLinkedin } from "react-icons/fa";
 import { BsGithub } from "react-icons/bs";
-import { FaTwitter } from "react-icons/fa";
 import { FaAngellist } from "react-icons/fa";
 import gmail from "../assets/images/official-gmail-icon-2020-.svg";
 import linkedin from "../assets/images/linkedin-icon-2.svg";
-import twitter from "../assets/images/Twitter X.svg";
+import twitter from "../assets/images/twitter-x-seeklogo.com-4 2.svg";
+import twitter2 from "../assets/images/twitter-x-seeklogo.com-4.svg";
 
 const Contact = () => {
   return (
@@ -26,7 +25,7 @@ const Contact = () => {
           rel="noreferrer"
           className="no-underline laptop:mx-5"
         >
-          <img src={gmail} alt="react logo" className="m-[5px] w-[20px] tablet:my-[5px] tablet:mx-[10px]" />
+          <img src={gmail} alt="email logo" className="m-[5px] w-[20px] tablet:my-[5px] tablet:mx-[10px]" />
         </a>
         <a
           href="https://www.linkedin.com/in/tumainimaganiko/"
@@ -34,7 +33,7 @@ const Contact = () => {
           className="no-underline laptop:mx-5"
           rel="noreferrer"
         >
-          <img src={linkedin} alt="react logo" className="m-[5px] w-[20px] tablet:my-[5px] tablet:mx-[10px]" />
+          <img src={linkedin} alt="linkedin logo" className="m-[5px] w-[20px] tablet:my-[5px] tablet:mx-[10px]" />
         </a>
         <a
           href="https://github.com/tumainimaganiko"
@@ -58,7 +57,8 @@ const Contact = () => {
           className="no-underline laptop:mx-5"
           rel="noreferrer"
         >
-          <img src={twitter} alt="react logo" className="m-[5px] w-[20px] tablet:my-[5px] tablet:mx-[10px]" />
+          <img src={twitter} alt="twitter logo" className=" hidden dark:block w-[40px] " />
+          <img src={twitter2} alt="twitter logo" className="dark:hidden  w-[40px]" />
         </a>
       </div>
     </section>
