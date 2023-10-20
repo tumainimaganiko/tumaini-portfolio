@@ -3,6 +3,8 @@ import spaceImage from "../../assets/images/spaceTravelers.png";
 import calculatorImage from "../../assets/images/calculator.png";
 import bookstoreImage from "../../assets/images/bookstore.png";
 import atlasImage from "../../assets/images/globalAtlas.png";
+import carImage from "../../assets/images/Screenshot 2023-10-12 at 00.29.16.png";
+import bookImage from "../../assets/images/book.png";
 
 const initialState = {
   projects: [
@@ -55,6 +57,25 @@ const initialState = {
       image: calculatorImage,
       githubLink: "https://github.com/tumainimaganiko/math-magicians",
       liveLink: "https://mathematician-app.onrender.com/",
+    },
+    {
+      id: 4,
+      name: "Car Renting System",
+      description: `
+      Car Rental is a web application that allows users to add, rent, and reserve vehicles. It is built using React as a Front-end library along with redux and Ruby On Rails at the backend for building the APIs together with the PostgreSQL database.
+        `,
+      image: carImage,
+      githubLink: "https://github.com/tumainimaganiko/front-end-capstone-group",
+      liveLink: "https://vehicle-company.onrender.com/",
+    },
+    {
+      id: 5,
+      name: "Catalog of my Things",
+      description: `Catalog of Things is a Ruby console-based application for managing a set of things such as Music Albums, Games, and Books. It provides some action options to the end user and stores all the data in JSON files
+        `,
+      image: bookImage,
+      githubLink: "https://github.com/tumainimaganiko/catalog-of-my-things",
+      liveLink: "https://github.com/tumainimaganiko/catalog-of-my-things",
     },
   ],
 };
