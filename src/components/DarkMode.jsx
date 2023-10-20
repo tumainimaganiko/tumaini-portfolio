@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react';
 import { MdLightMode, MdDarkMode } from "react-icons/md";
+import PropTypes from 'prop-types'
 
-function DarkMode( {myClass} ) {
+const DarkMode = ( {myClass} ) => {
   const [darkMode, setDarkMode] = useState(false);
 
   useEffect(() => {
@@ -33,3 +34,7 @@ function DarkMode( {myClass} ) {
 }
 
 export default DarkMode;
+
+DarkMode.propTypes = {
+  myClass: PropTypes.string.isRequired
+};
