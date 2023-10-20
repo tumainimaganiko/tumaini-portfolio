@@ -1,7 +1,5 @@
 import { useEffect, useState } from "react";
-import { FaLinkedin } from "react-icons/fa";
 import { FaAngellist } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
 import { BsGithub } from "react-icons/bs";
 import linkedin from "../assets/images/linkedin-icon-2.svg";
 import twitter from "../assets/images/twitter-x-seeklogo.com-4 2.svg";
@@ -28,7 +26,7 @@ const Header = () => {
     const typingInterval = setInterval(typeText, 50);
 
     return () => clearInterval(typingInterval);
-  }, []);
+  }, [message]);
   
   return (
     <section className="bg-black text-white dark:bg-white dark:text-black rounded-3xl m-5 p-5 tablet:my-[10%] tablet:mx-[5%] laptop:p-16 desktop:mx-[10%] ">
