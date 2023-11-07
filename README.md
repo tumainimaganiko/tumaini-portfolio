@@ -1,7 +1,7 @@
 
 <div align="center">
 
-  <h3><b>Global Atlas</b></h3>
+  <h3><b>Tumaini Maganiko's portfolio</b></h3>
 
 </div>
 
@@ -10,7 +10,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 Global Atlas ](#-global-atlas-)
+- [📖 Tumaini's portfolio ](#-portfolio-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -30,7 +30,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Global Atlas <a name="about-project"></a>
+# Tumaini's portfolio <a name="about-project"></a>
 
 **Welcome to my portfolio project built with React and Redux!
 
